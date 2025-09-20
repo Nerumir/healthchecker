@@ -9,6 +9,23 @@ This minimalist PHP application is for monitoring your different services and ap
 > [!TIP]
 > You can use this PHP application as you want but the only installation guide in created is for a docker deployment. As it is a basic PHP application without any complex dependencies, any other deployments will be (I hope) easy for you anyways.
 
+## Preview
+
+<p align="center">
+    <img width="100" src="https://github.com/Nerumir/healthchecker/blob/main/preview/main.png">
+    <p style="text-align: center;color: #c6c6c6">Web portal</p>
+</p>
+
+<p align="center">
+    <img width="100" src="https://github.com/Nerumir/healthchecker/blob/main/preview/smtp.png">
+    <p style="text-align: center;color: #c6c6c6">SMTP settings to configure mail notifications.</p>
+</p>
+
+<p align="center">
+    <img width="100" src="https://github.com/Nerumir/healthchecker/blob/main/preview/mail.png">
+    <p style="text-align: center;color: #c6c6c6">Mail notification when at least one service is down.</p>
+</p>
+
 ## Installation
 
 You obviously need docker installed to follow this installation guide. I'll consider everything is setup properly. Feel free to follow the docker installation guide online if you don't have it.
