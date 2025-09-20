@@ -11,19 +11,22 @@ This minimalist PHP application is for monitoring your different services and ap
 
 ## Preview
 
-<p align="center">
-    <img width="100" src="https://github.com/Nerumir/healthchecker/blob/main/preview/main.png">
-    <p style="text-align: center;color: #c6c6c6">Web portal</p>
-</p>
+### Web portal
 
 <p align="center">
-    <img width="100" src="https://github.com/Nerumir/healthchecker/blob/main/preview/smtp.png">
-    <p style="text-align: center;color: #c6c6c6">SMTP settings to configure mail notifications.</p>
+    <img width="500" src="https://github.com/Nerumir/healthchecker/blob/main/preview/main.png">
 </p>
 
+### SMTP settings for notifications
+
 <p align="center">
-    <img width="100" src="https://github.com/Nerumir/healthchecker/blob/main/preview/mail.png">
-    <p style="text-align: center;color: #c6c6c6">Mail notification when at least one service is down.</p>
+    <img width="500" src="https://github.com/Nerumir/healthchecker/blob/main/preview/smtp.png">
+</p>
+
+### Mail notification when a service is down
+
+<p align="center">
+    <img width="500" src="https://github.com/Nerumir/healthchecker/blob/main/preview/mail.png">
 </p>
 
 ## Installation
