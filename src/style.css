@@ -1,0 +1,130 @@
+header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: #efefef;
+  border-bottom: 1px solid #e6e0e0;
+}
+
+header h1 {
+  color: #7e7e7e;
+}
+
+header .mail_button {
+  position: absolute;
+  right: 30px;
+  border: 1px solid #c5c5c5;
+  padding: 5px 7px;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+header .mail_button:hover {
+  background-color: #e7e7e7;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.logo img {
+  width: 50px;
+}
+
+.mail_button {
+  position: absolute;
+  right: 30px;
+}
+
+.form-service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.form-service > * {
+  margin: 0px 5px;
+}
+
+.service-list {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.service-list .card-up .card-title {
+  color: #606060;
+  font-weight: bold;
+}
+
+.service-list .card-up {
+  background-color: #c0ffca;
+  margin: 10px;
+}
+
+.service-list .card-up i {
+  color: #359d2c;
+}
+
+.service-list .card-up .card-subtitle {
+  color: rgba(114, 114, 114, 0.75) !important;
+}
+
+.service-list .card-down .card-title {
+  color: #606060;
+  font-weight: bold;
+}
+
+.service-list .card-down {
+  background-color: #ffbcbc;
+  margin: 10px;
+}
+
+.service-list .card-down i {
+  color: #ff1515;
+}
+
+.service-list .card-down .card-subtitle {
+  color: rgba(114, 114, 114, 0.75) !important;
+}
+
+.portal-list {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.portal-list .card-title {
+  color: #606060;
+  font-weight: bold;
+}
+
+.portal-list .card {
+  background-color: #f2f2f2;
+  margin: 10px;
+}
+
+.portal-list .card a {
+  color: grey;
+}
+
+.portal-list .card-subtitle {
+  color: rgba(114, 114, 114, 0.75) !important;
+}
+
+.none {
+  text-align: center;
+  color: gray;
+  font-size: 20px;
+  font-weight: bold;
+}
