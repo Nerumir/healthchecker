@@ -21,7 +21,7 @@ To build and deploy the image sucessfully, you first need to clone the repositor
 ```bash
 sudo apt update
 sudo apt install git
-git clone repo
+git clone https://github.com/Nerumir/healthchecker.git
 cd healthchecker
 # BEFORE BUILDING, CHANGE THE USERNAME AND PASSWORD IN src/auth.php !!!!
 docker build . -t healthchecker

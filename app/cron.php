@@ -37,7 +37,7 @@ if(!empty($checks)){
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<title>Statut des Services</title>
+<title>Services status</title>
 </head>
 <body style="font-family: Arial, sans-serif; padding: 20px;">
 <h2 style="text-align: center; color: #333;">HealthChecker</h2>
@@ -47,7 +47,7 @@ if(!empty($checks)){
   <thead>
     <tr style="background-color: #343a40; color: #fff;">
       <th style="padding: 10px; border: 1px solid #dee2e6; text-align: left;">Service (Port)</th>
-      <th style="padding: 10px; border: 1px solid #dee2e6; text-align: center;">Disponibilité</th>
+      <th style="padding: 10px; border: 1px solid #dee2e6; text-align: center;">Availability</th>
     </tr>
   </thead>
   <tbody>

@@ -30,7 +30,7 @@
 
   <!-- FORM SERVICES -->
 <div class="card container my-5 px-0">
-  <h5 class="card-header">Disponibilité des services</h5>
+  <h5 class="card-header">Services status</h5>
   <div class="card-body">
 
   <form method="post" class="form-service" action="">
@@ -43,7 +43,7 @@
         <div>
           <input type="text" class="form-control" placeholder="Port" id="port" name="port">
         </div>
-        <input type="submit" name="submit" class="btn btn-success" value="Ajouter">
+        <input type="submit" name="submit" class="btn btn-success" value="Add">
   </form>
 
 <?php
@@ -69,7 +69,7 @@
         <i class="fa-solid fa-check"></i>
       </div>
     </div>
-    <a href="?remove_service=<?= $key ?>" class="card-link"><span class="badge text-bg-danger">retirer</span></a>
+    <a href="?remove_service=<?= $key ?>" class="card-link"><span class="badge text-bg-danger">remove</span></a>
   </div>
 </div>
 
@@ -86,7 +86,7 @@
         <i class="fa-solid fa-xmark"></i>
       </div>
     </div>
-    <a href="?remove_service=<?= $key ?>" class="card-link"><span class="badge text-bg-danger">retirer</span></a>
+    <a href="?remove_service=<?= $key ?>" class="card-link"><span class="badge text-bg-danger">remove</span></a>
   </div>
 </div>
 
@@ -96,7 +96,7 @@
         }
       ?> </div> <?php
     }else {
-      echo '<p class="none">Aucun service n\'a été rentré.</p>';
+      echo '<p class="none">No service has been added yet.</p>';
     }
 
 ?>
@@ -117,7 +117,7 @@
         <div>
           <input type="text" class="form-control" placeholder="URL" id="url" name="url">
         </div>
-        <input type="submit" name="submit" class="btn btn-success" value="Ajouter">
+        <input type="submit" name="submit" class="btn btn-success" value="Add">
   </form>
 
 <?php
@@ -142,7 +142,7 @@
         <a href="<?= $element['url'] ?>" target="__blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
       </div>
     </div>
-    <a href="?remove_portal=<?= $key ?>" class="card-link"><span class="badge text-bg-danger">Retirer</span></a>
+    <a href="?remove_portal=<?= $key ?>" class="card-link"><span class="badge text-bg-danger">remove</span></a>
   </div>
 </div>
 
@@ -152,7 +152,7 @@
 </div>
 <?php
     }else {
-      echo '<p class="none">Aucun portail n\'a été rentré.</p>';
+      echo '<p class="none">No web portal has been added yet.</p>';
     }
 
 ?>
